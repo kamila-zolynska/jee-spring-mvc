@@ -13,7 +13,7 @@ public class FormController {
 
     @GetMapping("/form")
     public String hello() {
-        return "form.jsp";
+        return "form";
     }
 
     @PostMapping("/form")
